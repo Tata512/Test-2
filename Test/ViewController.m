@@ -23,9 +23,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    int a = 0;
-    
     self.popview = [[DWPOPView alloc]initWithFrame:CGRectMake(0, 120, 3560, 120)];
     [self.view addSubview:self.popview];
        data = [NSMutableArray new];
